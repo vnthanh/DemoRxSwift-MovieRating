@@ -13,6 +13,7 @@
 		6C7442A9208DF5F1003FE516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7442A8208DF5F1003FE516 /* Assets.xcassets */; };
 		6C7442AC208DF5F1003FE516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7442AA208DF5F1003FE516 /* LaunchScreen.storyboard */; };
 		6CD533E12092C139005DC46B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD533E02092C139005DC46B /* MovieDetailViewController.swift */; };
+		6CD533E5209313F4005DC46B /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD533E4209313F4005DC46B /* AnotherViewController.swift */; };
 		6CEFE52A2091E32B00D2378C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEFE5292091E32B00D2378C /* Movie.swift */; };
 		6CEFE52E2091E48000D2378C /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEFE52D2091E48000D2378C /* MovieTableViewCell.swift */; };
 		C0C0E5C2F203ED38E577A6BD /* Pods_DemoRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C55F689F26B3F0028D1207 /* Pods_DemoRxSwift.framework */; };
@@ -29,6 +30,7 @@
 		6C7442AB208DF5F1003FE516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C7442AD208DF5F1003FE516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD533E02092C139005DC46B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		6CD533E4209313F4005DC46B /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 		6CEFE5292091E32B00D2378C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		6CEFE52D2091E48000D2378C /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		BEA345EF7DDBFEE44DFC3B85 /* Pods-DemoRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoRxSwift/Pods-DemoRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				6CEFE52C2091E46400D2378C /* Model */,
 				6CEFE52B2091E45900D2378C /* Cell */,
 				6CD533E02092C139005DC46B /* MovieDetailViewController.swift */,
+				6CD533E4209313F4005DC46B /* AnotherViewController.swift */,
 			);
 			path = DemoRxSwift;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				6C7442A4208DF5EE003FE516 /* ViewController.swift in Sources */,
 				6CD533E12092C139005DC46B /* MovieDetailViewController.swift in Sources */,
+				6CD533E5209313F4005DC46B /* AnotherViewController.swift in Sources */,
 				6C7442A2208DF5EE003FE516 /* AppDelegate.swift in Sources */,
 				6CEFE52E2091E48000D2378C /* MovieTableViewCell.swift in Sources */,
 				6CEFE52A2091E32B00D2378C /* Movie.swift in Sources */,
