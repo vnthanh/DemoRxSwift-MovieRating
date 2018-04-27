@@ -23,7 +23,7 @@ class MovieTableViewController: UIViewController {
         subscribeAdding(addButton: addButton)
         initMovies()
         
-        // Bind movies to tablview
+        // Bind movies to tableview
         movies.asObservable()
             .bind(to: movieTable.rx.items(cellIdentifier: "MovieCell", cellType: MovieTableViewCell.self)) { (row, movie, cell) in
                 // Bind each movie fields to track them (along with track the movies themself)
@@ -39,7 +39,6 @@ class MovieTableViewController: UIViewController {
         movieTable.rx.modelSelected(Movie.self)
             .subscribe(onNext: {
                 movie in
-                
                 // Present movie detail
                 let detailMovieViewController = self.storyboard?.instantiateViewController(withIdentifier: "MovieDetailViewController") as! MovieDetailViewController
                 detailMovieViewController.movie = movie

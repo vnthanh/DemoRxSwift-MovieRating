@@ -10,6 +10,7 @@ import RxSwift
 
 
 class Movie {
+    // We need to track these field changes too so -> Variable
     var title: Variable<String>
     var rating: Variable<Float>
     

@@ -11,10 +11,5 @@ import UIKit
 class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var ratingLabel: UILabel!
-    
-    func configureCell(movie: Movie) {
-        titleLabel.text = movie.title.value
-        ratingLabel.text = String(movie.rating.value)
-    }
 }
 
